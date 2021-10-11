@@ -30,3 +30,6 @@ def build(bld):
 
     obj = bld.create_ns3_program('seventh', ['core', 'stats', 'point-to-point', 'internet', 'applications'])
     obj.source = 'seventh.cc'
+
+    obj = bld.create_ns3_program('hey', ['core'])
+    obj.source = 'hey.cc'
